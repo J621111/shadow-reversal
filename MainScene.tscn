@@ -1,0 +1,132 @@
+[gd_scene format=3 uid="uid://dajvvhxymptc3"]
+
+[ext_resource type="PackedScene" uid="uid://bcuud11dgq0k4" path="res://Player.tscn" id="1_x4av3"]
+[ext_resource type="Script" uid="uid://b5d1cd8mf5suc" path="res://player.gd" id="2_rpqi1"]
+[ext_resource type="PackedScene" uid="uid://tpfvnuqmmba" path="res://Fragment.tscn" id="3_rpqi1"]
+[ext_resource type="Shader" uid="uid://c22x11ue45dxo" path="res://MainScene.gdshader" id="3_uxrcv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8f8s7"]
+size = Vector2(1141, 61)
+
+[sub_resource type="Gradient" id="Gradient_e80uo"]
+offsets = PackedFloat32Array(0.030120483, 1)
+colors = PackedColorArray(0.8980392, 0.9254902, 0.9411765, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_kne1u"]
+gradient = SubResource("Gradient_e80uo")
+width = 850
+height = 25
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_x4av3"]
+normal = Vector2(1, 0)
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_0jivv"]
+normal = Vector2(-1, 0)
+
+[sub_resource type="Gradient" id="Gradient_rf2cd"]
+offsets = PackedFloat32Array(0.0873494, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_cxr5p"]
+gradient = SubResource("Gradient_rf2cd")
+width = 850
+height = 25
+fill_from = Vector2(0, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5ncpa"]
+shader = ExtResource("3_uxrcv")
+shader_parameter/wave_speed = 2.0
+shader_parameter/wave_frequent = 15.0
+shader_parameter/wave_amp = 1.5
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0jivv"]
+size = Vector2(20, 400)
+
+[sub_resource type="Gradient" id="Gradient_5crlr"]
+offsets = PackedFloat32Array(0.030120483, 1)
+colors = PackedColorArray(0.9882353, 0.9882353, 0.972549, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_tdg3f"]
+gradient = SubResource("Gradient_5crlr")
+width = 20
+height = 400
+
+[sub_resource type="Environment" id="Environment_0jivv"]
+background_mode = 1
+background_color = Color(0.078431375, 0.09019608, 0.10980392, 1)
+glow_enabled = true
+glow_intensity = 1.2
+glow_bloom = 0.3
+glow_blend_mode = 0
+
+[node name="MainScene" type="Node2D" unique_id=1143817633]
+
+[node name="LightGround" type="StaticBody2D" parent="." unique_id=170661172]
+position = Vector2(576, 600)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LightGround" unique_id=401951874]
+position = Vector2(0, 10)
+shape = SubResource("RectangleShape2D_8f8s7")
+
+[node name="Sprite2D" type="Sprite2D" parent="LightGround" unique_id=1111859562]
+modulate = Color(0.8784314, 0.89411765, 0.9098039, 1)
+position = Vector2(0, 10)
+scale = Vector2(1.344705, -2.7438483)
+texture = SubResource("GradientTexture2D_kne1u")
+
+[node name="Player" parent="." unique_id=980907528 instance=ExtResource("1_x4av3")]
+position = Vector2(-528, 195)
+script = ExtResource("2_rpqi1")
+
+[node name="LeftWall" type="StaticBody2D" parent="." unique_id=1367221598]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWall" unique_id=896686262]
+shape = SubResource("WorldBoundaryShape2D_x4av3")
+
+[node name="RightWall" type="StaticBody2D" parent="." unique_id=667884602]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightWall" unique_id=1053826839]
+position = Vector2(1152, 0)
+shape = SubResource("WorldBoundaryShape2D_0jivv")
+
+[node name="ShadowCeiling" type="StaticBody2D" parent="." unique_id=825252263]
+position = Vector2(576, 50)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ShadowCeiling" unique_id=1128015583]
+shape = SubResource("RectangleShape2D_8f8s7")
+
+[node name="Sprite2D" type="Sprite2D" parent="ShadowCeiling" unique_id=19510279]
+modulate = Color(0.11764706, 0.14509805, 0.1882353, 1)
+scale = Vector2(1.344705, -2.7438483)
+texture = SubResource("GradientTexture2D_cxr5p")
+
+[node name="WaterLine" type="ColorRect" parent="." unique_id=388859291]
+modulate = Color(0.21960784, 0.39607844, 0.92941177, 1)
+material = SubResource("ShaderMaterial_5ncpa")
+offset_top = 310.0
+offset_right = 1600.0
+offset_bottom = 316.0
+scale = Vector2(0.7161458, 11.999998)
+
+[node name="GroundWall" type="StaticBody2D" parent="." unique_id=1909200764]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GroundWall" unique_id=1551371315]
+position = Vector2(682, 375)
+shape = SubResource("RectangleShape2D_0jivv")
+
+[node name="Sprite2D" type="Sprite2D" parent="GroundWall" unique_id=2145249267]
+modulate = Color(0.69803923, 0.5176471, 0.74509805, 1)
+position = Vector2(682, 375)
+texture = SubResource("GradientTexture2D_tdg3f")
+
+[node name="Fragment" parent="." unique_id=286622004 instance=ExtResource("3_rpqi1")]
+position = Vector2(756, 95)
+
+[node name="Fragment3" parent="." unique_id=816873600 instance=ExtResource("3_rpqi1")]
+position = Vector2(858, 564)
+
+[node name="Fragment2" parent="." unique_id=1030616926 instance=ExtResource("3_rpqi1")]
+position = Vector2(563, 536)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1065879682]
+environment = SubResource("Environment_0jivv")
