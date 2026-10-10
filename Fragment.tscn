@@ -1,25 +1,17 @@
 [gd_scene format=3 uid="uid://tpfvnuqmmba"]
 
 [ext_resource type="Script" uid="uid://dpmv6q4c74xad" path="res://fragment.gd" id="1_m0nf2"]
+[ext_resource type="Texture2D" uid="uid://b2iwqrwhdrwhs" path="res://Assets/fragment/Ores (17).png" id="2_bpmqo"]
 
-[sub_resource type="Gradient" id="Gradient_5dffs"]
-offsets = PackedFloat32Array(0, 0.4006024, 0.48493975, 0.5512048, 0.6987952, 0.9487952, 1)
-colors = PackedColorArray(0.99083334, 1, 0.89, 1, 0.8077, 0.82, 0.74619997, 1, 0.80028, 0.81, 0.74520004, 1, 0.7838667, 0.8, 0.712, 1, 0.75832164, 0.77, 0.6699, 1, 0.95, 0.95, 0.8645, 1, 1, 1, 0.92, 1)
-
-[sub_resource type="GradientTexture2D" id="GradientTexture2D_8f8s7"]
-gradient = SubResource("Gradient_5dffs")
-width = 16
-height = 16
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_0jivv"]
-radius = 11.5
+[sub_resource type="CircleShape2D" id="CircleShape2D_p4gy3"]
+radius = 19.5
 
 [node name="Fragment" type="Area2D" unique_id=286622004]
 script = ExtResource("1_m0nf2")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1485668653]
-modulate = Color(0.93399996, 1, 0.33999997, 1)
-texture = SubResource("GradientTexture2D_8f8s7")
+scale = Vector2(2, 2)
+texture = ExtResource("2_bpmqo")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1653716052]
-shape = SubResource("CircleShape2D_0jivv")
+shape = SubResource("CircleShape2D_p4gy3")

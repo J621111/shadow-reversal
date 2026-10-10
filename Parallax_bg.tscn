@@ -1,0 +1,95 @@
+[gd_scene format=3 uid="uid://dcr7goltiakrn"]
+
+[ext_resource type="Texture2D" uid="uid://bvj8mg26h1v4i" path="res://Assets/Background parts/6 - Distant_trees.png" id="1_ey5r7"]
+[ext_resource type="Texture2D" uid="uid://bgeqim5fdqly1" path="res://Assets/Background parts/5 - Tree_row_BG_2.png" id="2_lvf6v"]
+[ext_resource type="Texture2D" uid="uid://bugit4huv6gtg" path="res://Assets/Background parts/4 - Tree_row_BG_1.png" id="3_y8gif"]
+[ext_resource type="Texture2D" uid="uid://b5a4p5jtu22hr" path="res://Assets/Background parts/3 - Bottom_leaf_piles.png" id="4_6sc51"]
+[ext_resource type="Texture2D" uid="uid://b0vf8gwd1sdx8" path="res://Assets/Background parts/2 - Trees.png" id="5_hefkx"]
+[ext_resource type="Texture2D" uid="uid://150b44ielou7" path="res://Assets/Background parts/1 - Leaf_top.png" id="6_ktw2o"]
+
+[node name="ParallaxBG" type="Node2D" unique_id=1652143330]
+
+[node name="Layer_DistantTrees" type="Parallax2D" parent="." unique_id=1953668305]
+scroll_scale = Vector2(0.1, 0.1)
+repeat_size = Vector2(288, 0)
+repeat_times = 3
+
+[node name="BottomSprite" type="Sprite2D" parent="Layer_DistantTrees" unique_id=1013702541]
+position = Vector2(432, 544)
+texture = ExtResource("1_ey5r7")
+
+[node name="TopSprite" type="Sprite2D" parent="Layer_DistantTrees" unique_id=795028036]
+position = Vector2(432, 104)
+texture = ExtResource("1_ey5r7")
+flip_v = true
+
+[node name="Layer_TreeRow2" type="Parallax2D" parent="." unique_id=810529427]
+scroll_scale = Vector2(0.3, 0.3)
+scroll_offset = Vector2(143, 548)
+repeat_size = Vector2(288, 0)
+repeat_times = 3
+
+[node name="BottomSprite" type="Sprite2D" parent="Layer_TreeRow2" unique_id=796918435]
+position = Vector2(577, 1)
+texture = ExtResource("2_lvf6v")
+
+[node name="TopSprite" type="Sprite2D" parent="Layer_TreeRow2" unique_id=2078058799]
+position = Vector2(577, -448)
+texture = ExtResource("2_lvf6v")
+flip_v = true
+
+[node name="Layer_TreeRow1" type="Parallax2D" parent="." unique_id=788737956]
+scroll_scale = Vector2(0.5, 0.5)
+repeat_size = Vector2(288, 0)
+repeat_times = 3
+
+[node name="BottomSprite" type="Sprite2D" parent="Layer_TreeRow1" unique_id=1270746672]
+position = Vector2(432, 548)
+texture = ExtResource("3_y8gif")
+
+[node name="TopSprite" type="Sprite2D" parent="Layer_TreeRow1" unique_id=2093096931]
+position = Vector2(431, 104)
+texture = ExtResource("3_y8gif")
+flip_v = true
+
+[node name="Layer_LeafPiles" type="Parallax2D" parent="." unique_id=1916832298]
+scroll_scale = Vector2(0.6, 0.6)
+repeat_size = Vector2(288, 0)
+repeat_times = 3
+
+[node name="BottomSprite" type="Sprite2D" parent="Layer_LeafPiles" unique_id=1683423706]
+position = Vector2(432, 547)
+texture = ExtResource("4_6sc51")
+
+[node name="TopSprite" type="Sprite2D" parent="Layer_LeafPiles" unique_id=934579406]
+position = Vector2(433, 105)
+texture = ExtResource("4_6sc51")
+flip_v = true
+
+[node name="Layer_MidTrees" type="Parallax2D" parent="." unique_id=1154168456]
+scroll_scale = Vector2(0.7, 0.7)
+repeat_size = Vector2(288, 0)
+repeat_times = 3
+
+[node name="BottomSprite" type="Sprite2D" parent="Layer_MidTrees" unique_id=956519352]
+position = Vector2(425, 549)
+texture = ExtResource("5_hefkx")
+
+[node name="TopSprite" type="Sprite2D" parent="Layer_MidTrees" unique_id=1082995954]
+position = Vector2(424, 103)
+texture = ExtResource("5_hefkx")
+flip_v = true
+
+[node name="Layer_LeafTop" type="Parallax2D" parent="." unique_id=220987995]
+scroll_scale = Vector2(1.1, 1.1)
+repeat_size = Vector2(288, 0)
+repeat_times = 3
+
+[node name="BottomSprite" type="Sprite2D" parent="Layer_LeafTop" unique_id=1788502260]
+position = Vector2(432, 518)
+texture = ExtResource("6_ktw2o")
+
+[node name="TopSprite" type="Sprite2D" parent="Layer_LeafTop" unique_id=1250052160]
+position = Vector2(432, 98)
+texture = ExtResource("6_ktw2o")
+flip_v = true

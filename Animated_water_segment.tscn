@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dd1kykcbrksad"]
+
+[ext_resource type="Texture2D" uid="uid://dp2yy1v5onrmx" path="res://Assets/Background parts/5 - Sky_color.png" id="1_fi68v"]
+
+[node name="AnimatedWaterSegment" type="Node2D" unique_id=1098864315]
+
+[node name="WaterLine" type="Parallax2D" parent="." unique_id=1674687063]
+repeat_size = Vector2(288, 0)
+repeat_times = 3
+
+[node name="Blue" type="Sprite2D" parent="WaterLine" unique_id=1702672436]
+texture = ExtResource("1_fi68v")
