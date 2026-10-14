@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bg2dvomvxenco"]
+
+[ext_resource type="Script" uid="uid://chxfuavseilfj" path="res://wind_zone.gd" id="1_p6wab"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0jivv"]
+size = Vector2(1050, 200)
+
+[node name="WindZone" type="Area2D" unique_id=1020349217]
+script = ExtResource("1_p6wab")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=571624414]
+position = Vector2(724, 564)
+shape = SubResource("RectangleShape2D_0jivv")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1074914883]
+offset_left = 199.0
+offset_top = 464.0
+offset_right = 1249.0
+offset_bottom = 664.0
+color = Color(0.96, 0.57600003, 0.38399997, 0.4117647)

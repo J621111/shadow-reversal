@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://cpotkfdlr0pl8" path="res://Assets/Cat_player/Cat_sheets/Cat_run_1.png" id="2_kne1u"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3mqji"]
-size = Vector2(31, 31)
+size = Vector2(17.5, 29.5)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e80uo"]
 atlas = ExtResource("1_kpjcp")
@@ -90,7 +90,7 @@ scale = Vector2(2, 2)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1924093610]
 modulate = Color(0.96862745, 1, 1, 1)
-position = Vector2(544.5, 131.5)
+position = Vector2(544.25, 131.75)
 shape = SubResource("RectangleShape2D_3mqji")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1912590252]

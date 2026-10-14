@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://b6hy70dn0q0qw"]
+
+[ext_resource type="Script" uid="uid://bvrd75bvm75cq" path="res://seed.gd" id="1_n30ri"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0jivv"]
+size = Vector2(32, 32)
+
+[node name="Seed" type="RigidBody2D" unique_id=2005600575]
+can_sleep = false
+lock_rotation = true
+script = ExtResource("1_n30ri")
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1732178428]
+shape = SubResource("RectangleShape2D_0jivv")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=185804017]
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+color = Color(0.9666667, 1, 0, 1)
