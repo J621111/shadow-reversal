@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b6hy70dn0q0qw"]
 
-[ext_resource type="Script" uid="uid://bvrd75bvm75cq" path="res://seed.gd" id="1_n30ri"]
+[ext_resource type="Script" uid="uid://bvrd75bvm75cq" path="res://Entities/seed.gd" id="1_n30ri"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0jivv"]
 size = Vector2(32, 32)
@@ -19,4 +19,4 @@ offset_left = -16.0
 offset_top = -16.0
 offset_right = 16.0
 offset_bottom = 16.0
-color = Color(0.9666667, 1, 0, 1)
+color = Color(0.9649734, 0.98, 0.52919996, 0.9882353)

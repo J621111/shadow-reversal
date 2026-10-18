@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bg2dvomvxenco"]
 
-[ext_resource type="Script" uid="uid://chxfuavseilfj" path="res://wind_zone.gd" id="1_p6wab"]
+[ext_resource type="Script" uid="uid://chxfuavseilfj" path="res://Entities/wind_zone.gd" id="1_p6wab"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0jivv"]
 size = Vector2(1050, 200)

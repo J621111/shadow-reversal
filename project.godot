@@ -13,11 +13,12 @@ config_version=5
 config/name="Shadow Reversal"
 run/main_scene="uid://dajvvhxymptc3"
 config/features=PackedStringArray("4.7", "Mobile")
-config/icon="res://icon.svg"
+config/icon="res://Assets/icon.svg"
 
 [autoload]
 
 EventBus="*uid://dvgyjo44sech8"
+SceneTransition="*uid://n8tush7x6j84"
 
 [display]
 

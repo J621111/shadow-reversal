@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://b0vf8gwd1sdx8" path="res://Assets/Background parts/2 - Trees.png" id="5_hefkx"]
 [ext_resource type="Texture2D" uid="uid://150b44ielou7" path="res://Assets/Background parts/1 - Leaf_top.png" id="6_ktw2o"]
 
-[node name="ParallaxBG" type="Node2D" unique_id=1652143330]
+[node name="AutumnBG" type="Node2D" unique_id=1652143330]
 
 [node name="Layer_DistantTrees" type="Parallax2D" parent="." unique_id=1953668305]
 scroll_scale = Vector2(0.1, 0.1)

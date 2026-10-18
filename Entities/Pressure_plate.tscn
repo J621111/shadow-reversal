@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dtr7lkuddobaw"]
 
-[ext_resource type="Script" uid="uid://dfure2fp6f561" path="res://pressure_plate.gd" id="1_tcp4s"]
+[ext_resource type="Script" uid="uid://dfure2fp6f561" path="res://Entities/pressure_plate.gd" id="1_tcp4s"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0jivv"]
 size = Vector2(60, 10)
@@ -15,6 +15,6 @@ shape = SubResource("RectangleShape2D_0jivv")
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1832481134]
 offset_left = -30.0
 offset_top = -5.0
-offset_right = 30.0
-offset_bottom = 5.0
+offset_right = 40.0
+offset_bottom = 15.0
 color = Color(0.21050721, 0.21050721, 0.21050721, 1)

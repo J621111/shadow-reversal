@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://bikdh2sjiuylq"]
 
-[ext_resource type="Script" uid="uid://cpl4c5csmwgdv" path="res://gate.gd" id="1_54j8h"]
+[ext_resource type="Script" uid="uid://cpl4c5csmwgdv" path="res://Entities/gate.gd" id="1_54j8h"]
 [ext_resource type="Texture2D" uid="uid://dqvseujcp2yrm" path="res://Assets/gate/door_open2.png" id="2_nv845"]
 [ext_resource type="Texture2D" uid="uid://cck8kn0ic6tk2" path="res://Assets/gate/door_closed.png" id="2_x6m3a"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0jivv"]
-size = Vector2(15, 23)
+size = Vector2(47, 70)
 
 [node name="Gate" type="StaticBody2D" unique_id=784868713]
 script = ExtResource("1_54j8h")
@@ -14,7 +14,7 @@ close_texture = ExtResource("2_x6m3a")
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=742375431]
-position = Vector2(0.5, 3.5)
+position = Vector2(0.5, 12)
 shape = SubResource("RectangleShape2D_0jivv")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=929282448]

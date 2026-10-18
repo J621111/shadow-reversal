@@ -1,26 +1,27 @@
 [gd_scene format=4 uid="uid://dajvvhxymptc3"]
 
-[ext_resource type="PackedScene" uid="uid://dcr7goltiakrn" path="res://Parallax_bg.tscn" id="1_hbc2u"]
-[ext_resource type="PackedScene" uid="uid://bcuud11dgq0k4" path="res://Player.tscn" id="1_x4av3"]
-[ext_resource type="PackedScene" uid="uid://bg2dvomvxenco" path="res://Wind_zone.tscn" id="2_8s4c3"]
-[ext_resource type="Script" uid="uid://b5d1cd8mf5suc" path="res://player.gd" id="2_rpqi1"]
-[ext_resource type="PackedScene" uid="uid://tpfvnuqmmba" path="res://Fragment.tscn" id="3_rpqi1"]
-[ext_resource type="AudioStream" uid="uid://h7vtl82sbavg" path="res://Assets/audio/872504__vogyik__lake-waves-2-converted-to-ortf.wav" id="5_rf2cd"]
-[ext_resource type="Texture2D" uid="uid://cuww2d0jqpata" path="res://Assets/tileset/2 - Autumn Forest/Autumn_entities (16 x 16).png" id="6_5crlr"]
-[ext_resource type="Texture2D" uid="uid://c0q66penddwsv" path="res://Assets/tileset/2 - Autumn Forest/Terrain (16 x 16).png" id="7_hbc2u"]
-[ext_resource type="Texture2D" uid="uid://cmqrx7nk5hmus" path="res://Assets/tileset/traps/tile_0108.png" id="9_x0cd2"]
-[ext_resource type="Texture2D" uid="uid://bi5vfbmxk3sp5" path="res://Assets/tileset/traps/tile_0109.png" id="10_8s4c3"]
-[ext_resource type="Texture2D" uid="uid://cquff58q0qb8b" path="res://Assets/tileset/traps/tile_0029.png" id="11_3slyh"]
-[ext_resource type="Texture2D" uid="uid://bl2llq8e4h2w0" path="res://Assets/tileset/traps/tile_0030.png" id="12_xtmsi"]
-[ext_resource type="Texture2D" uid="uid://b0yt13d6ch0so" path="res://Assets/tileset/traps/tile_0031.png" id="13_anuui"]
-[ext_resource type="Texture2D" uid="uid://cawi51rgnfu4i" path="res://Assets/tileset/traps/tile_0045.png" id="14_8qg48"]
-[ext_resource type="Texture2D" uid="uid://q6ctdkrqffu" path="res://Assets/tileset/traps/tile_0047.png" id="15_1ms6g"]
-[ext_resource type="Texture2D" uid="uid://cx0bwqicwwl7b" path="res://Assets/tileset/traps/tile_0076.png" id="16_h86nx"]
-[ext_resource type="Texture2D" uid="uid://4fu8g17m16am" path="res://Assets/tileset/traps/tile_0077.png" id="17_7jkkr"]
-[ext_resource type="PackedScene" uid="uid://dd1kykcbrksad" path="res://Animated_water_segment.tscn" id="17_x0cd2"]
-[ext_resource type="PackedScene" uid="uid://b6hy70dn0q0qw" path="res://Seed.tscn" id="19_3slyh"]
-[ext_resource type="PackedScene" uid="uid://bikdh2sjiuylq" path="res://Gate.tscn" id="20_anuui"]
-[ext_resource type="PackedScene" uid="uid://dtr7lkuddobaw" path="res://Pressure_plate.tscn" id="21_8qg48"]
+[ext_resource type="PackedScene" uid="uid://dcr7goltiakrn" path="res://Environments/Autumn_bg.tscn" id="1_l1se8"]
+[ext_resource type="PackedScene" uid="uid://bg2dvomvxenco" path="res://Entities/Wind_zone.tscn" id="2_h6ytn"]
+[ext_resource type="PackedScene" uid="uid://dd1kykcbrksad" path="res://Environments/Animated_water_segment.tscn" id="3_loc6o"]
+[ext_resource type="PackedScene" uid="uid://bcuud11dgq0k4" path="res://Entities/player/Player.tscn" id="4_4qf45"]
+[ext_resource type="Script" uid="uid://b5d1cd8mf5suc" path="res://Entities/player/player.gd" id="5_rfhvc"]
+[ext_resource type="PackedScene" uid="uid://tpfvnuqmmba" path="res://Entities/Fragment.tscn" id="6_ohtdd"]
+[ext_resource type="AudioStream" uid="uid://h7vtl82sbavg" path="res://Assets/audio/872504__vogyik__lake-waves-2-converted-to-ortf.wav" id="7_fskla"]
+[ext_resource type="Texture2D" uid="uid://cuww2d0jqpata" path="res://Assets/tileset/2 - Autumn Forest/Autumn_entities (16 x 16).png" id="8_p6iqy"]
+[ext_resource type="Texture2D" uid="uid://c0q66penddwsv" path="res://Assets/tileset/2 - Autumn Forest/Terrain (16 x 16).png" id="9_uqoxd"]
+[ext_resource type="Texture2D" uid="uid://cmqrx7nk5hmus" path="res://Assets/tileset/traps/tile_0108.png" id="10_yla51"]
+[ext_resource type="Texture2D" uid="uid://bi5vfbmxk3sp5" path="res://Assets/tileset/traps/tile_0109.png" id="11_076qn"]
+[ext_resource type="Texture2D" uid="uid://cquff58q0qb8b" path="res://Assets/tileset/traps/tile_0029.png" id="12_rntg6"]
+[ext_resource type="Texture2D" uid="uid://bl2llq8e4h2w0" path="res://Assets/tileset/traps/tile_0030.png" id="13_1bnfo"]
+[ext_resource type="Texture2D" uid="uid://b0yt13d6ch0so" path="res://Assets/tileset/traps/tile_0031.png" id="14_eaah8"]
+[ext_resource type="Texture2D" uid="uid://cawi51rgnfu4i" path="res://Assets/tileset/traps/tile_0045.png" id="15_7s8ac"]
+[ext_resource type="Texture2D" uid="uid://q6ctdkrqffu" path="res://Assets/tileset/traps/tile_0047.png" id="16_e0wkj"]
+[ext_resource type="Texture2D" uid="uid://cx0bwqicwwl7b" path="res://Assets/tileset/traps/tile_0076.png" id="17_67yf2"]
+[ext_resource type="Texture2D" uid="uid://4fu8g17m16am" path="res://Assets/tileset/traps/tile_0077.png" id="18_w1dwd"]
+[ext_resource type="PackedScene" uid="uid://b6hy70dn0q0qw" path="res://Entities/Seed.tscn" id="19_4yvbh"]
+[ext_resource type="PackedScene" uid="uid://bikdh2sjiuylq" path="res://Entities/Gate.tscn" id="20_l6o7f"]
+[ext_resource type="PackedScene" uid="uid://dtr7lkuddobaw" path="res://Entities/Pressure_plate.tscn" id="21_2u5eo"]
+[ext_resource type="PackedScene" uid="uid://breflehqvj51y" path="res://Entities/Level_exit.tscn" id="21_loc6o"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_x4av3"]
 normal = Vector2(1, 0)
@@ -37,7 +38,7 @@ glow_bloom = 0.3
 glow_blend_mode = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_torvr"]
-texture = ExtResource("6_5crlr")
+texture = ExtResource("8_p6iqy")
 1:1/0 = 0
 2:1/0 = 0
 3:1/0 = 0
@@ -91,7 +92,7 @@ texture = ExtResource("6_5crlr")
 3:5/0/z_index = 1
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8xkvn"]
-texture = ExtResource("7_hbc2u")
+texture = ExtResource("9_uqoxd")
 3:1/0 = 0
 3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 4:1/0 = 0
@@ -168,55 +169,55 @@ texture = ExtResource("7_hbc2u")
 4:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_amtbh"]
-texture = ExtResource("9_x0cd2")
+texture = ExtResource("10_yla51")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_obg7t"]
-texture = ExtResource("10_8s4c3")
+texture = ExtResource("11_076qn")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v3bin"]
-texture = ExtResource("11_3slyh")
+texture = ExtResource("12_rntg6")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6dw4c"]
-texture = ExtResource("12_xtmsi")
+texture = ExtResource("13_1bnfo")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cxdnd"]
-texture = ExtResource("13_anuui")
+texture = ExtResource("14_eaah8")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ro037"]
-texture = ExtResource("14_8qg48")
+texture = ExtResource("15_7s8ac")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lppff"]
-texture = ExtResource("15_1ms6g")
+texture = ExtResource("16_e0wkj")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5o6vq"]
-texture = ExtResource("16_h86nx")
+texture = ExtResource("17_67yf2")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5i0cj"]
-texture = ExtResource("17_7jkkr")
+texture = ExtResource("18_w1dwd")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -235,19 +236,19 @@ sources/9 = SubResource("TileSetAtlasSource_5i0cj")
 sources/10 = SubResource("TileSetAtlasSource_amtbh")
 sources/11 = SubResource("TileSetAtlasSource_obg7t")
 
-[node name="MainScene" type="Node2D" unique_id=1143817633]
+[node name="Autumn" type="Node2D" unique_id=1143817633]
 
-[node name="ParallaxBG" parent="." unique_id=1652143330 instance=ExtResource("1_hbc2u")]
+[node name="AutumnBG" parent="." unique_id=1652143330 instance=ExtResource("1_l1se8")]
 
-[node name="WindZone" parent="." unique_id=1020349217 instance=ExtResource("2_8s4c3")]
+[node name="WindZone" parent="." unique_id=1020349217 instance=ExtResource("2_h6ytn")]
 position = Vector2(-198, -28)
 
-[node name="AnimatedWaterSegment" parent="." unique_id=1098864315 instance=ExtResource("17_x0cd2")]
+[node name="AnimatedWaterSegment" parent="." unique_id=1098864315 instance=ExtResource("3_loc6o")]
 position = Vector2(433, 309)
 
-[node name="Player" parent="." unique_id=980907528 instance=ExtResource("1_x4av3")]
+[node name="Player" parent="." unique_id=980907528 instance=ExtResource("4_4qf45")]
 position = Vector2(-616, 278)
-script = ExtResource("2_rpqi1")
+script = ExtResource("5_rfhvc")
 
 [node name="LeftWall" type="StaticBody2D" parent="." unique_id=1367221598]
 
@@ -260,20 +261,20 @@ shape = SubResource("WorldBoundaryShape2D_x4av3")
 position = Vector2(1152, 0)
 shape = SubResource("WorldBoundaryShape2D_0jivv")
 
-[node name="Fragment" parent="." unique_id=286622004 instance=ExtResource("3_rpqi1")]
+[node name="Fragment" parent="." unique_id=286622004 instance=ExtResource("6_ohtdd")]
 position = Vector2(756, 95)
 
-[node name="Fragment3" parent="." unique_id=816873600 instance=ExtResource("3_rpqi1")]
+[node name="Fragment3" parent="." unique_id=816873600 instance=ExtResource("6_ohtdd")]
 position = Vector2(857, 556)
 
-[node name="Fragment2" parent="." unique_id=1030616926 instance=ExtResource("3_rpqi1")]
+[node name="Fragment2" parent="." unique_id=1030616926 instance=ExtResource("6_ohtdd")]
 position = Vector2(627, 602)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1065879682]
 environment = SubResource("Environment_0jivv")
 
 [node name="BGMPlayer" type="AudioStreamPlayer" parent="." unique_id=833818141]
-stream = ExtResource("5_rf2cd")
+stream = ExtResource("7_fskla")
 volume_db = -6.0
 autoplay = true
 
@@ -288,13 +289,17 @@ scale = Vector2(-1, -1)
 tile_map_data = PackedByteArray("AADB/wAAAQABAAMAAADC/wAAAQACAAMAAADD//7/AQAEAAEAAADD////AQAEAAIAAADD/wAAAQAEAAMAAADE//7/AQAFAAEAAADE////AQAFAAIAAADE/wAAAQAFAAMAAADF/wAAAQAGAAMAAADG////AAAJAAMAAADG/wAAAQAGAAMAAADH////AAAKAAMAAADH/wAAAQAGAAMAAADI////AAALAAMAAADI/wAAAQAGAAMAAADJ//7/AAAFAAIAAADJ////AAAFAAMAAADJ/wAAAQAGAAMAAADK//7/AAAGAAIAAADK////AAAGAAMAAADK/wAAAQAGAAMAAADL//7/AAAHAAIAAADL////AAAHAAMAAADL/wAAAQAGAAMAAADM////AAABAAUAAADM/wAAAQAGAAMAAADN/wAAAQAGAAMAAADO//7/AQAEAAEAAADO////AQAEAAIAAADO/wAAAQAEAAMAAADP//7/AQAFAAEAAADP////AQAFAAIAAADP/wAAAQAFAAMAAADQ////AAADAAUAAADQ/wAAAQAGAAMAAADR////AAABAAUAAADR/wAAAQAGAAMAAADS////AAABAAUAAADS/wAAAQAGAAMAAADT////AAAKAAEAAADT/wAAAQAGAAMAAADU//7/AAAFAAIAAADU////AAAFAAMAAADU/wAAAQAGAAMAAADV//7/AAAGAAIAAADV////AAAGAAMAAADV/wAAAQAGAAMAAADW//7/AAAHAAIAAADW////AAAHAAMAAADW/wAAAQAGAAMAAADX/wAAAQAGAAMAAADY////AAAPAAEAAADY/wAAAAAQAAMAAADZ////AAAQAAEAAADa////AAAQAAEAAADa/wAAAAAQAAMAAADb////AAAQAAEAAADc////AAAQAAEAAADc/wAAAAAQAAMAAADd////AAAQAAEAAADe////AAARAAEAAADe/wAAAAAQAAMAAADf/wAAAQAGAAMAAADg//7/AAAFAAIAAADg////AAAFAAMAAADg/wAAAQAGAAMAAADh//7/AAAGAAIAAADh////AAAGAAMAAADh/wAAAQAGAAMAAADi//7/AAAHAAIAAADi////AAAHAAMAAADi/wAAAQAGAAMAAADj/wAAAQAGAAMAAADk/wAAAQAGAAMAAADl/wAAAQAGAAMA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")
 tile_set = SubResource("TileSet_0jivv")
 
-[node name="Seed" parent="." unique_id=2005600575 instance=ExtResource("19_3slyh")]
+[node name="Seed" parent="." unique_id=2005600575 instance=ExtResource("19_4yvbh")]
 position = Vector2(398, 602)
 
-[node name="Gate" parent="." unique_id=784868713 instance=ExtResource("20_anuui")]
+[node name="Gate" parent="." unique_id=784868713 instance=ExtResource("20_l6o7f")]
 position = Vector2(1129, 571)
 
-[node name="PressurePlate" parent="." unique_id=1491514992 instance=ExtResource("21_8qg48")]
+[node name="LevelExit" parent="." unique_id=1857005247 instance=ExtResource("21_loc6o")]
+position = Vector2(1127, 583)
+next_scene_path = ""
+
+[node name="PressurePlate" parent="." unique_id=1491514992 instance=ExtResource("21_2u5eo")]
 position = Vector2(145, 15)
 
 [connection signal="plate_pressed" from="PressurePlate" to="Gate" method="open"]
