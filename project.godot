@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Shadow Reversal"
-run/main_scene="uid://dajvvhxymptc3"
+run/main_scene="uid://cs5lb0us4bwa1"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://Assets/icon.svg"
 

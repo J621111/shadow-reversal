@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bcuud11dgq0k4"]
 
 [ext_resource type="Texture2D" uid="uid://c15fvcv1blovn" path="res://Assets/Cat_player/Cat_sheets/Cat_idle_1.png" id="1_kpjcp"]
+[ext_resource type="Script" uid="uid://b5d1cd8mf5suc" path="res://Entities/player/player.gd" id="1_wkjva"]
 [ext_resource type="Texture2D" uid="uid://cpotkfdlr0pl8" path="res://Assets/Cat_player/Cat_sheets/Cat_run_1.png" id="2_kne1u"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3mqji"]
@@ -87,6 +88,7 @@ gravity = Vector3(0, -5, 0)
 
 [node name="Player" type="CharacterBody2D" unique_id=980907528 groups=["Player"]]
 scale = Vector2(2, 2)
+script = ExtResource("1_wkjva")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1924093610]
 modulate = Color(0.96862745, 1, 1, 1)
@@ -94,10 +96,10 @@ position = Vector2(544.25, 131.75)
 shape = SubResource("RectangleShape2D_3mqji")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1912590252]
-position = Vector2(576, 325)
+position = Vector2(576, 330)
 limit_left = 0
-limit_top = 0
-limit_bottom = 600
+limit_top = 5
+limit_bottom = 643
 position_smoothing_enabled = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=102078719]
