@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bugit4huv6gtg"
-path="res://.godot/imported/4 - Tree_row_BG_1.png-5436065ed898b65e99a7c4b2a56775e5.ctex"
+uid="uid://ritbcpucv7t8"
+path="res://.godot/imported/2 - Smaller_mountains.png-d91b0e36fdb05c50eb41fb8406e25a11.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Background parts/4 - Tree_row_BG_1.png"
-dest_files=["res://.godot/imported/4 - Tree_row_BG_1.png-5436065ed898b65e99a7c4b2a56775e5.ctex"]
+source_file="res://Assets/Background parts/winter/2 - Smaller_mountains.png"
+dest_files=["res://.godot/imported/2 - Smaller_mountains.png-d91b0e36fdb05c50eb41fb8406e25a11.ctex"]
 
 [params]
 

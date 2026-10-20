@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://cplp4ynat0fxw"]
+
+[ext_resource type="Texture2D" uid="uid://ch2tjxrcdyun6" path="res://Assets/Background parts/winter/3 - Big_mountain_BG.png" id="1_sd3hq"]
+[ext_resource type="Texture2D" uid="uid://ritbcpucv7t8" path="res://Assets/Background parts/winter/2 - Smaller_mountains.png" id="2_8tkg5"]
+[ext_resource type="Texture2D" uid="uid://dl58gffxt8430" path="res://Assets/Background parts/winter/1 - Snowy_foreground_area.png" id="3_qeyvu"]
+
+[node name="WinterBG" type="Node2D" unique_id=1945217102]
+
+[node name="Layer_DistantMountains" type="Parallax2D" parent="." unique_id=863600791]
+scroll_scale = Vector2(0.1, 0.1)
+repeat_size = Vector2(288, 0)
+repeat_times = 3
+
+[node name="BottomSprite" type="Sprite2D" parent="Layer_DistantMountains" unique_id=1486621820]
+position = Vector2(432, 543)
+texture = ExtResource("1_sd3hq")
+
+[node name="TopSprite" type="Sprite2D" parent="Layer_DistantMountains" unique_id=808718224]
+position = Vector2(432, 106)
+texture = ExtResource("1_sd3hq")
+flip_v = true
+
+[node name="Layer_SmallerMountains" type="Parallax2D" parent="." unique_id=212179612]
+scroll_scale = Vector2(0.4, 0.4)
+repeat_size = Vector2(288, 0)
+repeat_times = 3
+
+[node name="BottomSprite" type="Sprite2D" parent="Layer_SmallerMountains" unique_id=1866019635]
+position = Vector2(432, 543)
+texture = ExtResource("2_8tkg5")
+
+[node name="TopSprite" type="Sprite2D" parent="Layer_SmallerMountains" unique_id=1740720613]
+position = Vector2(432, 104)
+texture = ExtResource("2_8tkg5")
+flip_v = true
+
+[node name="Layer_SnowGround" type="Parallax2D" parent="." unique_id=2101174088]
+scroll_scale = Vector2(0.7, 0.7)
+repeat_size = Vector2(288, 0)
+repeat_times = 3
+
+[node name="BottomSprite" type="Sprite2D" parent="Layer_SnowGround" unique_id=634378143]
+position = Vector2(432, 544)
+texture = ExtResource("3_qeyvu")
+
+[node name="TopSprite" type="Sprite2D" parent="Layer_SnowGround" unique_id=1719471332]
+position = Vector2(432, 105)
+texture = ExtResource("3_qeyvu")
+flip_v = true

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bgvfjk52i8u83"
-path="res://.godot/imported/_Complete_static_BG_(288 x 208).png-87a9cc385d3119c3d8819ad5065210d1.ctex"
+uid="uid://bugit4huv6gtg"
+path="res://.godot/imported/4 - Tree_row_BG_1.png-2a6b2242577494b22dd0d9b9dc44f7b6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Background parts/_Complete_static_BG_(288 x 208).png"
-dest_files=["res://.godot/imported/_Complete_static_BG_(288 x 208).png-87a9cc385d3119c3d8819ad5065210d1.ctex"]
+source_file="res://Assets/Background parts/Autumn/4 - Tree_row_BG_1.png"
+dest_files=["res://.godot/imported/4 - Tree_row_BG_1.png-2a6b2242577494b22dd0d9b9dc44f7b6.ctex"]
 
 [params]
 

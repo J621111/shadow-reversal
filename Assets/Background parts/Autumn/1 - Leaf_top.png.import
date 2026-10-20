@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0vf8gwd1sdx8"
-path="res://.godot/imported/2 - Trees.png-a81547ec7cdce4f941be25667b693663.ctex"
+uid="uid://150b44ielou7"
+path="res://.godot/imported/1 - Leaf_top.png-af86ca8e6e5d7e02c4f56c58fbc655dd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Background parts/2 - Trees.png"
-dest_files=["res://.godot/imported/2 - Trees.png-a81547ec7cdce4f941be25667b693663.ctex"]
+source_file="res://Assets/Background parts/Autumn/1 - Leaf_top.png"
+dest_files=["res://.godot/imported/1 - Leaf_top.png-af86ca8e6e5d7e02c4f56c58fbc655dd.ctex"]
 
 [params]
 

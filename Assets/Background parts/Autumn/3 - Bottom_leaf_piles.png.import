@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bgeqim5fdqly1"
-path="res://.godot/imported/5 - Tree_row_BG_2.png-d946ddb3d5c1c89ef5b36149e24a99e9.ctex"
+uid="uid://b5a4p5jtu22hr"
+path="res://.godot/imported/3 - Bottom_leaf_piles.png-dc1b2bb666d5fe32984647ddbf72e60a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Background parts/5 - Tree_row_BG_2.png"
-dest_files=["res://.godot/imported/5 - Tree_row_BG_2.png-d946ddb3d5c1c89ef5b36149e24a99e9.ctex"]
+source_file="res://Assets/Background parts/Autumn/3 - Bottom_leaf_piles.png"
+dest_files=["res://.godot/imported/3 - Bottom_leaf_piles.png-dc1b2bb666d5fe32984647ddbf72e60a.ctex"]
 
 [params]
 

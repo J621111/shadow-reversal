@@ -1,3 +1,11 @@
 [gd_scene format=3 uid="uid://cs5lb0us4bwa1"]
 
+[ext_resource type="PackedScene" uid="uid://cplp4ynat0fxw" path="res://Environments/winter_bg.tscn" id="1_l2eso"]
+[ext_resource type="PackedScene" uid="uid://bcuud11dgq0k4" path="res://Entities/player/Player.tscn" id="1_nkpkf"]
+
 [node name="Winter" type="Node2D" unique_id=724886232]
+
+[node name="WinterBG" parent="." unique_id=1945217102 instance=ExtResource("1_l2eso")]
+
+[node name="Player" parent="." unique_id=980907528 instance=ExtResource("1_nkpkf")]
+position = Vector2(-701, 252)

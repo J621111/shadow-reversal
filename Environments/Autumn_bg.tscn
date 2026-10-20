@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://dcr7goltiakrn"]
 
-[ext_resource type="Texture2D" uid="uid://bvj8mg26h1v4i" path="res://Assets/Background parts/6 - Distant_trees.png" id="1_ey5r7"]
-[ext_resource type="Texture2D" uid="uid://bgeqim5fdqly1" path="res://Assets/Background parts/5 - Tree_row_BG_2.png" id="2_lvf6v"]
-[ext_resource type="Texture2D" uid="uid://bugit4huv6gtg" path="res://Assets/Background parts/4 - Tree_row_BG_1.png" id="3_y8gif"]
-[ext_resource type="Texture2D" uid="uid://b5a4p5jtu22hr" path="res://Assets/Background parts/3 - Bottom_leaf_piles.png" id="4_6sc51"]
-[ext_resource type="Texture2D" uid="uid://b0vf8gwd1sdx8" path="res://Assets/Background parts/2 - Trees.png" id="5_hefkx"]
-[ext_resource type="Texture2D" uid="uid://150b44ielou7" path="res://Assets/Background parts/1 - Leaf_top.png" id="6_ktw2o"]
+[ext_resource type="Texture2D" uid="uid://bvj8mg26h1v4i" path="res://Assets/Background parts/Autumn/6 - Distant_trees.png" id="1_ey5r7"]
+[ext_resource type="Texture2D" uid="uid://bgeqim5fdqly1" path="res://Assets/Background parts/Autumn/5 - Tree_row_BG_2.png" id="2_lvf6v"]
+[ext_resource type="Texture2D" uid="uid://bugit4huv6gtg" path="res://Assets/Background parts/Autumn/4 - Tree_row_BG_1.png" id="3_y8gif"]
+[ext_resource type="Texture2D" uid="uid://b5a4p5jtu22hr" path="res://Assets/Background parts/Autumn/3 - Bottom_leaf_piles.png" id="4_6sc51"]
+[ext_resource type="Texture2D" uid="uid://b0vf8gwd1sdx8" path="res://Assets/Background parts/Autumn/2 - Trees.png" id="5_hefkx"]
+[ext_resource type="Texture2D" uid="uid://150b44ielou7" path="res://Assets/Background parts/Autumn/1 - Leaf_top.png" id="6_ktw2o"]
 
 [node name="AutumnBG" type="Node2D" unique_id=1652143330]
 
